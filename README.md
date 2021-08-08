@@ -2,15 +2,12 @@
 
 ---
 
-This project allows the creation of **Smart Markers** map (offline) and using it in the camera localization (online). More information __[here](https://www.mdpi.com/1424-8220/21/2/625)__.
+This project allows the creation of **Smart Markers** map (offline) and using it in the camera localization (online). The code is the implementation of the paper: "**Smart Artificial Markers for Accurate Visual Mapping and Localization**". More information __[here](https://www.mdpi.com/1424-8220/21/2/625)__.
 
-<!-- <img src="/images/odom_hall.png" alt="odom_hall" width="250"/> <img src="/images/odom_room.png" alt="odom_room" width="400"/> -->
-
-<img src="/images/sm_mapping.gif" alt="mapping" width="250"/> 
-
----
+<img src="/images/camera_localization.gif" alt="camera_localization" width="1000" class="center"/>
 
 ## Installation:
+---
 
 Dependences (mandatory):
 
@@ -29,18 +26,15 @@ Download code and open a terminal `ctrl+t`:
     $ cmake .. 
     $ make
 
----
-## 
-
----
-
 ## How to use:
+---
 
 + Make a set of **Smart Markers**.
     * Use the **Aruco** library to create a set of markers.
     * Print the markers and use a tape measurer to know their actual size. 
     * Build the **PMS** units and attach them to the markers.
-        <img src="/images/marker_front.png" alt="marker_front" width="200"/> <img src="/images/marker_back.png" alt="marker_back" width="200"/>
+    * <img src="/images/schematic.png" alt="marker_front" width="300" class="center"/>
+    * <img src="/images/marker_front.png" alt="marker_front" width="150" class="center"/> <img src="/images/marker_back.png" alt="marker_back" width="150" class="center"/>
     * Load code in folder `/pms` into a ESP32 device using Arduino IDE.
     * Generate `pms_data.txt`.
 + Place **Smart Markers** in the environment.
@@ -88,16 +82,15 @@ Download code and open a terminal `ctrl+t`:
         ```
         ./test_cam_localization <video.svo> <sm_map.yml> <aruco_config.yml> </Desktop>
         ```
----
 
 ## **Note:**
+---
 
 + All markers must have the same size. 
 + Make sure several markers appear in the images to create the marker graph. 
 
----
-
 ## References:
+---
 
 Please cite the following papers if use this code and **Smart Markers**:
 ```
