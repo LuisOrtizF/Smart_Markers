@@ -1,0 +1,10 @@
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Con_C++/Con_Multi_Libraries/ArUco/Smart_Markers/build/CMakeFiles/edit_cache.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Con_C++/Con_Multi_Libraries/ArUco/Smart_Markers/build/CMakeFiles/rebuild_cache.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Con_C++/Con_Multi_Libraries/ArUco/Smart_Markers/build/CMakeFiles/test_cam_localization.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Con_C++/Con_Multi_Libraries/ArUco/Smart_Markers/build/CMakeFiles/test_marker_mapper.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Con_C++/Con_Multi_Libraries/ArUco/Smart_Markers/build/CMakeFiles/test_zed.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Con_C++/Con_Multi_Libraries/ArUco/Smart_Markers/build/CMakeFiles/sensors.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Con_C++/Con_Multi_Libraries/ArUco/Smart_Markers/build/CMakeFiles/test_sm_mapping.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Con_C++/Con_Multi_Libraries/ArUco/Smart_Markers/build/CMakeFiles/save_data_cloud_correction.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Con_C++/Con_Multi_Libraries/ArUco/Smart_Markers/build/CMakeFiles/utils.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Con_C++/Con_Multi_Libraries/ArUco/Smart_Markers/build/CMakeFiles/optimization.dir

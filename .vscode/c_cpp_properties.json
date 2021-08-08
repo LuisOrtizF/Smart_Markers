@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/zed/include",
+                "/usr/include/nvidia-460/cuda",
+                "/usr/include/hwloc",
+                "/usr/include/linux",
+                "/usr/local/cuda-10.0",
+                "/usr/local/cuda-10.0/targets/x86_64-linux/include",
+                "/usr/include/eigen3",
+                "${workspaceFolder}/include",
+                "/usr/local/include/marker_mapper",
+                "/usr/include/suitesparse/csparse"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang-6.0",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
