@@ -33,7 +33,7 @@ Download code and open a terminal `ctrl+t`:
     * Use the **Aruco** library to create a set of markers.
     * Print the markers and use a tape measurer to know their actual size. 
     * Build the **PMS** units and attach them to the markers.
-    * <img src="/images/schematic.png" alt="marker_front" width="300" class="center"/>
+    * <img src="/images/schematic.png" alt="schematic" width="300" class="center"/>
     * <img src="/images/marker_front.png" alt="marker_front" width="150" class="center"/> <img src="/images/marker_back.png" alt="marker_back" width="150" class="center"/>
     * Load code in folder `/pms` into a ESP32 device using Arduino IDE.
     * Generate `pms_data.txt`.
