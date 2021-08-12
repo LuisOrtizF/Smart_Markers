@@ -2,7 +2,7 @@
 
 ---
 
-This project allows the creation of **Smart Markers** map (offline) and using it in the camera localization (online). The code is the implementation of the paper: "**Smart Artificial Markers for Accurate Visual Mapping and Localization**". More information __[here](https://www.mdpi.com/1424-8220/21/2/625)__.
+This project allows creating a **Smart Markers** map (offline) and using it in the camera localization (online). The code is the implementation of the paper: "**Smart Artificial Markers for Accurate Visual Mapping and Localization**." More information __[here](https://www.mdpi.com/1424-8220/21/2/625)__.
 
 <img src="/images/camera_localization.gif" alt="camera_localization" width="1000" class="center"/>
 
@@ -35,7 +35,7 @@ Download code and open a terminal `ctrl+t`:
     * Build the **PMS** units and attach them to the markers.
     * <img src="/images/schematic.png" alt="schematic" width="300" class="center"/>
     * <img src="/images/marker_front.png" alt="marker_front" width="150" class="center"/> <img src="/images/marker_back.png" alt="marker_back" width="150" class="center"/>
-    * Load code in folder `/pms` into a ESP32 device using Arduino IDE.
+    * Load code in folder `/pms` into an ESP32 device using Arduino IDE.
     * Generate `pms_data.txt`.
 + Place **Smart Markers** in the environment.
 + Record a video `.svo` with calibated __[Stereolabs ZED](https://www.stereolabs.com/zed/)__.
@@ -49,7 +49,7 @@ Download code and open a terminal `ctrl+t`:
         * `<marker_size>`: real marker size mesuare by hand.
         * `<marker_ref>`: reference marker (origin of the markers map reference system).
         Note:
-        + `0.1295`: real marker size mesuare by hand.
+        + `0.1295`: marker size measure by hand.
         + `000000`: reference marker (origin of the markers map reference system).
     + Outputs:
         * `/depth`: contains depth images (in mm). A depth map is a 1-channel matrix with 16-bit float values for each pixel.
@@ -58,11 +58,11 @@ Download code and open a terminal `ctrl+t`:
         //Print the depth value at the center of the image:
         std::cout << depth_image.at<float>(depth_image.rows/2, depth_image.cols/2) << std::endl;
         ```
-        * `depth.txt`: contains the index of the depth images, e.g., `timestamp depth/timestamp.png`.
+        * `depth.txt`: contains the index of the depth images, e.g., `timestamp depth/timestamp.png.`
         * `/rgb`: color images (left camera).
-        * `rgb.txt`: contains the index of the color images, e.g., `timestamp rgb/timestamp.png`.
+        * `rgb.txt`: contains the index of the color images, e.g., `timestamp rgb/timestamp.png.`
         * `/sm_data/sm_cam.yml`: contains the camera's intrinsic parameters.
-        * `/sm_data/sm_map.yml`: contains the 3D id and position (in the marker reference system) of the 4 corners of each marker.
+        * `/sm_data/sm_map.yml`: contains the 3D id and position (in the marker reference system) of the four corners of each marker.
     + Example:
         ```
         ./test_sm_mapping <video.svo> <pms_data.txt> <aruco_config.yml> </Desktop> <0.1295> <00000>"
@@ -77,7 +77,7 @@ Download code and open a terminal `ctrl+t`:
         * `<out_dir>`: the path of the directory to save all outputs
     + Output:
         * `groundtruth.txt`: contains the timestamp and pose of the camera in the coordinate system of the markers map, e.g.:
-        `#timestamp tx ty tz qx qy qz qw`. In this ground truth are only optimized poses (i.e, only in frames where are detected two or more markers) not for all frames.
+        `#timestamp tx ty tz qx qy qz qw.` On this ground, truth are only optimized poses (i.e., only in frames where two or more markers), not for all frames.
     + Example:    
         ```
         ./test_cam_localization <video.svo> <sm_map.yml> <aruco_config.yml> </Desktop>
