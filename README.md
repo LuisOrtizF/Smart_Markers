@@ -119,3 +119,10 @@ Please cite the following papers if use this code and **Smart Markers**:
     eISSN   = {1577-5097} 
 }
 ```
+
+## NOTE:
+
+<p style="background:black">
+<code style="background:black;color:red">If you find any of these codes helpful, please share my <a href="https://github.com/LuisOrtizF">GitHub</a> and STAR</code>:star:<code style="background:black;color:red">this repository to help other enthusiasts to find these tools. Remember, the knowledge must be shared. Otherwise, it is useless and lost in time.
+</code>
+</p>
