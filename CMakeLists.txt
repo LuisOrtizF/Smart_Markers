@@ -33,12 +33,17 @@ message(STATUS "Cholmod Found: " ${CHOLMOD_FOUND})
 find_package(CSparse REQUIRED)
 message(STATUS "CSParse Found: " ${CSparse_FOUND})
 
+set(THREADS_HAVE_PTHREAD_ARG 1)
+find_package(Threads REQUIRED)
+message(STATUS "Threads Found: " ${Threads_FOUND})
+
 IF(NOT WIN32)
     add_definitions(-Wno-format-extra-args)
     SET(SPECIAL_OS_LIBS "pthread" "X11")
 ENDIF()
 
 set (MM_SRC_DIR /usr/local/include/marker_mapper)
+set (LIBSERIAL_SRC_DIR /usr/local/include/libserial)
 
 include_directories(
     ${CUDA_INCLUDE_DIRS}
@@ -50,6 +55,7 @@ include_directories(
     ${CHOLMOD_INCLUDE_DIR}
     ${CSPARSE_INCLUDE_DIR}
     ${MM_SRC_DIR}
+    ${LIBSERIAL_SRC_DIR}
 )
 
 list(APPEND G2O_LIBS
@@ -64,6 +70,7 @@ list(APPEND G2O_LIBS
 link_directories(${ZED_LIBRARY_DIR})
 link_directories(${OpenCV_LIBRARY_DIRS})
 link_directories(${CUDA_LIBRARY_DIRS})
+link_directories("/usr/local/lib")
 
 FILE(GLOB_RECURSE SENSORS_SRC_DIR src/sensors/*.cpp)
 add_library(sensors SHARED ${SENSORS_SRC_DIR})
@@ -83,6 +90,9 @@ ADD_EXECUTABLE(test_marker_mapper src/app/test_marker_mapper.cpp)
 ADD_EXECUTABLE(test_sm_mapping src/app/test_sm_mapping.cpp)
 ADD_EXECUTABLE(test_cam_localization src/app/test_cam_localization.cpp)
 
+ADD_EXECUTABLE(pms_orientation_viewer src/app/pms_orientation_viewer.cpp)
+ADD_EXECUTABLE(pms_infomatrix_viewer src/app/pms_infomatrix_viewer.cpp)
+
 add_definitions(-std=c++14 -O3)
 
 if (LINK_SHARED_ZED)
@@ -96,3 +106,6 @@ TARGET_LINK_LIBRARIES(test_zed ${ZED_LIBS} ${OpenCV_LIBS} sensors utils)
 TARGET_LINK_LIBRARIES(test_marker_mapper ${ZED_LIBS} ${OpenCV_LIBS} sensors utils aruco libmarker_mapper.so)
 TARGET_LINK_LIBRARIES(test_sm_mapping ${ZED_LIBS} ${OpenCV_LIBS} ${G2O_LIBS} optimization sensors utils aruco)
 TARGET_LINK_LIBRARIES(test_cam_localization ${ZED_LIBS} ${OpenCV_LIBS} ${G2O_LIBS} optimization sensors utils aruco)
+
+TARGET_LINK_LIBRARIES(pms_orientation_viewer ${OpenCV_LIBS} utils libserial.so ${CMAKE_THREAD_LIBS_INIT})
+TARGET_LINK_LIBRARIES(pms_infomatrix_viewer ${OpenCV_LIBS} utils libserial.so ${CMAKE_THREAD_LIBS_INIT})

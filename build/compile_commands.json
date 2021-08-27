@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -DOPENCV_TRAITS_ENABLE_DEPRECATED -Doptimization_EXPORTS -isystem /usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g -fPIC   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/optimization.dir/src/optimization/cam_localization.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/optimization/cam_localization.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/optimization/cam_localization.cpp"
+},
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -DOPENCV_TRAITS_ENABLE_DEPRECATED -Doptimization_EXPORTS -isystem /usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g -fPIC   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/optimization.dir/src/optimization/sm_mapping.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/optimization/sm_mapping.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/optimization/sm_mapping.cpp"
+},
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -DOPENCV_TRAITS_ENABLE_DEPRECATED -isystem /usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/pms_infomatrix_viewer.dir/src/app/pms_infomatrix_viewer.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/pms_infomatrix_viewer.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/pms_infomatrix_viewer.cpp"
+},
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -DOPENCV_TRAITS_ENABLE_DEPRECATED -isystem /usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/save_data_cloud_correction.dir/src/app/save_data_cloud_correction.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/save_data_cloud_correction.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/save_data_cloud_correction.cpp"
+},
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -DOPENCV_TRAITS_ENABLE_DEPRECATED -isystem /usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/test_sm_mapping.dir/src/app/test_sm_mapping.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/test_sm_mapping.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/test_sm_mapping.cpp"
+},
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -Dsensors_EXPORTS -I/usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -I/usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g -fPIC   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/sensors.dir/src/sensors/perspective_camera.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/sensors/perspective_camera.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/sensors/perspective_camera.cpp"
+},
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -Dsensors_EXPORTS -I/usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -I/usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g -fPIC   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/sensors.dir/src/sensors/zed.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/sensors/zed.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/sensors/zed.cpp"
+},
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -DOPENCV_TRAITS_ENABLE_DEPRECATED -isystem /usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/test_zed.dir/src/app/test_zed.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/test_zed.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/test_zed.cpp"
+},
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -Dutils_EXPORTS -I/usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -I/usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g -fPIC   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/utils.dir/src/utils/visualizer3d.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/utils/visualizer3d.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/utils/visualizer3d.cpp"
+},
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -Dutils_EXPORTS -I/usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -I/usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g -fPIC   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/utils.dir/src/utils/visualizer2d.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/utils/visualizer2d.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/utils/visualizer2d.cpp"
+},
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -Dutils_EXPORTS -I/usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -I/usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g -fPIC   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/utils.dir/src/utils/geometry.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/utils/geometry.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/utils/geometry.cpp"
+},
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -DOPENCV_TRAITS_ENABLE_DEPRECATED -isystem /usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/pms_orientation_viewer.dir/src/app/pms_orientation_viewer.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/pms_orientation_viewer.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/pms_orientation_viewer.cpp"
+},
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -DOPENCV_TRAITS_ENABLE_DEPRECATED -isystem /usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/test_marker_mapper.dir/src/app/test_marker_mapper.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/test_marker_mapper.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/test_marker_mapper.cpp"
+},
+{
+  "directory": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build",
+  "command": "/usr/bin/g++-5   -DOPENCV_TRAITS_ENABLE_DEPRECATED -isystem /usr/local/include -I/usr/local/include/aruco -I/usr/local/cuda-10.0/include -I/usr/local/zed/include -isystem /usr/local/include/opencv -I/usr/local/include/eigen3 -I/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/include -I/usr/include/suitesparse -I/usr/local/include/marker_mapper -I/usr/local/include/libserial  -g   -Wno-format-extra-args -std=c++14 -O3 -o CMakeFiles/test_cam_localization.dir/src/app/test_cam_localization.o -c /home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/test_cam_localization.cpp",
+  "file": "/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/src/app/test_cam_localization.cpp"
+}
+]

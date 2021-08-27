@@ -1,0 +1,12 @@
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build/CMakeFiles/edit_cache.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build/CMakeFiles/rebuild_cache.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build/CMakeFiles/optimization.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build/CMakeFiles/pms_infomatrix_viewer.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build/CMakeFiles/save_data_cloud_correction.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build/CMakeFiles/test_sm_mapping.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build/CMakeFiles/sensors.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build/CMakeFiles/test_zed.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build/CMakeFiles/utils.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build/CMakeFiles/pms_orientation_viewer.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build/CMakeFiles/test_marker_mapper.dir
+/home/luis/Documents/DRIVE/LUIS/CODIGOS/Smart_Markers/build/CMakeFiles/test_cam_localization.dir

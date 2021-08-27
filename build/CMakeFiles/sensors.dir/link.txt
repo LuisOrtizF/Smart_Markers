@@ -1,0 +1,1 @@
+/usr/bin/g++-5  -fPIC -g  -shared -Wl,-soname,libsensors.so -o libsensors.so CMakeFiles/sensors.dir/src/sensors/perspective_camera.o CMakeFiles/sensors.dir/src/sensors/zed.o  -L/usr/local/cuda-10.0/lib64  -L/usr/local/lib  -L/usr/local/zed/lib 
